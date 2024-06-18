@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.zvZ28oBZGBQagG2JJaFGRQHaE8%26pid%3DApi&f=1&ipt=46efce65888df7a914414cff4f6823d04772096a45f99d653f91cbe6f67ff353&ipo=images);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #ff0000;
+}
+inst {
+    color: #ffffff;
+}
+
+section {
+    display: flex; 
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.gif-container {
+    text-align: center;
+}
+
+.gif-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.photo-and-gif {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.vertical-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.vertical-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.vertical-table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #f2f2f2;
+}
